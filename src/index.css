@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin:0 auto;
+  background: teal;
+  height: 100vh;;
+}
+
+h1 {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: .5rem;
+  border: 2px solid gold;
+}
+
+.submit {
+  margin: 1rem auto;
+}
+
+.submit button {
+  font-size: 2rem;
+  border: 2px solid gold;
+}
+.submit button:hover {
+  background-color: gold;
+}
